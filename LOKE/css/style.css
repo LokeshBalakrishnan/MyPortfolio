@@ -232,7 +232,7 @@ a, a:hover {
 }
 
 .unslate_co--site-nav .site-nav-ul > li > a:hover:before, .unslate_co--site-nav .site-nav-ul-none-onepage > li > a:hover:before {
-  width: calc(100% - 14px);
+  width: min-content;
 }
 
 .unslate_co--site-nav .site-nav-ul > li > a.active, .unslate_co--site-nav .site-nav-ul-none-onepage > li > a.active {
@@ -241,7 +241,7 @@ a, a:hover {
 
 .unslate_co--site-nav .site-nav-ul > li > a.active:before, .unslate_co--site-nav .site-nav-ul-none-onepage > li > a.active:before {
   color: #fff;
-  width: calc(100% - 14px);
+  width: min-content;
 }
 
 .unslate_co--site-nav .site-nav-ul > li.has-children, .unslate_co--site-nav .site-nav-ul-none-onepage > li.has-children {
@@ -373,7 +373,7 @@ a, a:hover {
 
 .unslate_co--site-nav .site-nav-ul > li.active > a:before, .unslate_co--site-nav .site-nav-ul-none-onepage > li.active > a:before {
   color: #fff;
-  width: calc(100% - 40px);
+  width: min-content;
 }
 
 .unslate_co--site-nav .burger-toggle-menu {
